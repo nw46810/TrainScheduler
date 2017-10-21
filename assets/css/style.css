@@ -1,0 +1,59 @@
+body{
+  background:url(../images/trainback.jpg);
+}
+.jumbotron{
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #B80000;
+  border:2px #B80000 solid;
+  font-family: 'Bungee', cursive;
+}
+.ride{
+  font-size:40px;
+  color:black;
+}
+
+
+
+.panel-default{
+    border:2px #B80000 solid;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .panel-default > .panel-heading {
+    color: #B80000;
+}
+
+#trainTable{
+  color:black;
+  font-size:20px;
+  font: bold;
+}
+#trainNameInput,#destinationInput,#timeInput,#frequencyInput{
+  color:black;
+  font-size:18px;
+}
+.form-group{
+  color: black;
+  font-size:20px;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #B80000;
+    color: white;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #800000;
+}
